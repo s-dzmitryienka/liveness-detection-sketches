@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "livenes-detection-02-2025"
+version = "0.1.0"
+description = ""
+authors = ["s.dzmitryienka <s.dzmitryienka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+deepface = "^0.0.93"
+opencv-python = "^4.11.0.86"
+tf-keras = "^2.18.0"
+keras-vggface = "^0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
