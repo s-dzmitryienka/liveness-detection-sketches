@@ -1,0 +1,19 @@
+[project]
+name = "17_02_25__face_detection"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "sqrlyy",email = "maks.posohov.serg@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.11.0.86"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
